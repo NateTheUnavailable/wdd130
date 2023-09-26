@@ -44,6 +44,7 @@ aside img {
 aside h2{
     position: absolute;
     top: 30px;
+    right: 120px;
 }
 main img{
     width:150px;
