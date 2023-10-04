@@ -23,9 +23,6 @@ body {
     width:300px;
     margin:50px;
 }
-.flexbox-item1{
-
-}
 
 h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
@@ -128,3 +125,18 @@ footer{
 .noncense{
     display:flex;
 }
+figcaption {
+    background-color: var(--nav-link-color);
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+  figure {
+    border: thin grey solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+  }
