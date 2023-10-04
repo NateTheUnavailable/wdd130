@@ -23,7 +23,10 @@ body {
     width:300px;
     margin:50px;
 }
-
+.noncense-img{
+    justify-content:center;
+    align-items:center;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -119,7 +122,7 @@ footer{
 }
 .copyright{
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:flex-end;
 }
 .noncense{
