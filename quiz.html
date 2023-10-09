@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="styles/quiz.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="This is a website for my html class">
+        <meta name="author" content="Nathaniel Gardner">
+        <title>Quiz | WDD 130</title>
+    </head>
+    <body>
+        <header>
+            <h1>Basic Quiz</h1>
+        </header>
+        <main>
+        <form>
+                <div class="form-item column2">
+                    <label for="noise">1. What is used to make speakers louder</label>
+                </div>
+                <input type="text" name="q1" id="q1">
+                <div class="form-item column2">
+                    <label for="email">2. Write some words for this question</label>
+                </div>
+                <textarea id="q2" name="q2" ></textarea>
+                <div class="column1">
+                    <label for="favorite">3. What Is Your Favorite Browser</label>
+                </div>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value="chrome">Chrome</option>
+                    <option value="edge">Edge</option>
+                    <option value="safari">Safari</option>
+                    <option value="firefox">Firefox</option>
+                    </select>
+                <div>
+                    <label>4. What Does 5 + 10 add to</label>
+                </div>
+                <input type="number" name="q4" id="q4">
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </main>
+    </body>
+</html>
