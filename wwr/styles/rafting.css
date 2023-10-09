@@ -21,13 +21,20 @@ body {
 }
 .flexbox-item{
     width:300px;
-    margin:50px;
+    margin:auto;
+    padding-bottom:1%;
+}
+.flexbox-map{
+    width:475px;
+    padding-right:25%;
+    padding-top:1%;
+    padding-bottom:1%;
 }
 .noncense-img{
     justify-content:center;
     align-items:center;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6, form{
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align:center;
@@ -143,3 +150,70 @@ figcaption {
     max-width: 220px;
     margin: auto;
   }
+  form{
+    width: 750;
+    margin: 0 auto;
+    padding: 2rem;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:0.5rem;
+    background-color:#eee;
+    display:grid;
+}
+fieldset{
+    display: grid;
+    grid-gap:0.5rem;
+    margin:1rem;
+    border:1px solid rgba(0,0,0,0.2);
+    padding:1rem;
+}
+legend{
+    padding:0.5rem;
+    font-size:1.3em;
+    color:var(--primary-color);
+}
+label, input, button, select, textarea {
+    font-family: var(--heading-font);
+} 
+label{
+    width:400px;
+    padding-top:2rem;
+    padding-bottom:1rem;
+}
+input, select, textarea{
+    padding:0.5rem;
+    font-size:1.1rem
+}
+.q2{
+}
+input[type="checkbox"]{
+    width:22px;
+    height:22px;
+    vertical-align:bottom;
+}
+button{
+    margin:1rem;
+    background-color:var(--nav-background-color);
+    color:var(--primary-color);
+    border:none;
+    border-radius: 0.5rem;
+    padding:0.75rem;
+    font-size:1.2rem;
+}
+button[type="submit"]{
+    padding:1rem;
+    font-size:1.1rem;
+}
+button:hover{
+    background-color:var(--nav-hover-background-color);
+}
+.form-item{
+    display:grid;
+    align-items:center;
+}
+.column1{
+    grid-template-columns:3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2{
+    grid-template-columns:1fr 2fr;
+}
