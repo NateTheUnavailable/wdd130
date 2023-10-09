@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Contact Us | Nathaniel Gardner</title>
+        <title>Contact Us | Down The River</title>
         <meta name="description" content="How to contact us">
         <meta name="author" content="Nathaniel Gardner">
         <link rel="stylesheet" href="styles/rafting.css">
@@ -73,20 +73,21 @@
                 <label for="email">Email</label>
                 <input type="email" it="useremail" name="useremail">
             </div>
-        </fieldset>
-        <fieldset>
+        
             <legend>Purpouse For Message</legend>
             <div class="column1">
                 <label for="favorite">What Is The Purpouse For your Message</label>
-                <select id="favorite" name="favorite">
-                <option value="" selected disabled>Choose One ...</option>
-                <option value="general">General Inquiries</option>
-                <option value="edge">Reservation Questions</option>
-                <option value="safari">Website Suggestions</option>
-                </select>
+                <div>
+                    <input type="radio" id="general" name="purpouse" value="General">
+                    <label for="general">General Inquiry</label></br>
+                    <input type="radio" id="reservation" name="purpouse" value="Reservation">
+                    <label for="reservation">Reservation Question</label></br>
+                    <input type="radio" id="suggestion" name="purpouse" value="Suggestion">
+                    <label for="suggestion">Website Suggestion</label></br>
+                </div>
             </div>
             <div>
-                <label for="pet">List the places you have lived</label>
+                <label for="pet">Comments or Concerns?</label>
             </div>    
             <textarea id="feedback" name="feedback" rows="4" placeholder="Write your complaint and/or ideas here"></textarea>
             <div class="household">
