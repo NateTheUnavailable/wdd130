@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <link rel="stylesheet" href="styles/poll-form.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>WDD 130 | HTML Form - User Poll</title>
+    </head>
+    <body>
+        <header>
+        <h1>WDD 130 | Nathaniel Gardner | HTML Form - User Poll</h1>
+        </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" it="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="email">Email</label>
+                    <input type="email" it="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="column1">
+                    <label for="favorite">What Is Your Favorite Browser</label>
+                    <select id="favorite" name="favorite">
+                    <option value="chrome">Chrome</option>
+                    <option value="edge">Edge</option>
+                    <option value="safari">Safari</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="brave">Brave</option>
+                    <option value="opera">Opera</option>
+                    <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="household">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <div>
+                    <label for="pet">List the places you have lived</label>
+                </div>    
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>©2024 | HTML Form - User Poll Activity | Nathaniel Gardner</p>
+    </footer>
+    </body>
+</html>
