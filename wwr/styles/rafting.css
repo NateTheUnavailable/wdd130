@@ -24,6 +24,11 @@ body {
     margin:auto;
     padding-bottom:1%;
 }
+.flexbox-trips{
+    width:300px;
+    margin:auto;
+    padding-bottom:1%;
+}
 .flexbox-map{
     width:475px;
     padding-right:25%;
@@ -147,7 +152,7 @@ figcaption {
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 220px;
+    max-width: 770px;
     margin: auto;
   }
   form{
@@ -216,4 +221,10 @@ button:hover{
 }
 .column2{
     grid-template-columns:1fr 2fr;
+}
+.call{
+    position: absolute;
+    top:90%;
+    right:1%;
+    font-size:1.6rem;
 }
