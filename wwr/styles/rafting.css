@@ -26,8 +26,9 @@ body {
 }
 .flexbox-trips{
     width:300px;
-    margin:auto;
     padding-bottom:1%;
+    margin:auto;
+    flex:1%
 }
 .flexbox-map{
     width:475px;
@@ -147,6 +148,9 @@ figcaption {
     padding: 3px;
     text-align: center;
   }
+  .trips{
+    font-size: large;
+  }
   figure {
     border: thin grey solid;
     display: flex;
@@ -154,6 +158,7 @@ figcaption {
     padding: 5px;
     max-width: 770px;
     margin: auto;
+    margin-top: 2%;
   }
   form{
     width: 750;
@@ -188,8 +193,6 @@ input, select, textarea{
     padding:0.5rem;
     font-size:1.1rem
 }
-.q2{
-}
 input[type="checkbox"]{
     width:22px;
     height:22px;
@@ -203,6 +206,7 @@ button{
     border-radius: 0.5rem;
     padding:0.75rem;
     font-size:1.2rem;
+    font-style:oblique;
 }
 button[type="submit"]{
     padding:1rem;
@@ -227,4 +231,7 @@ button:hover{
     top:90%;
     right:1%;
     font-size:1.6rem;
+}
+.questions{
+margin-left:89%
 }
